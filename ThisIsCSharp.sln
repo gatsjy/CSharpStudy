@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Inte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiInterfaceInheritance", "MultiInterfaceInheritance\MultiInterfaceInheritance.csproj", "{96521DC3-0091-4D8B-8308-041CBDB9A9F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreOnArray", "MoreOnArray\MoreOnArray.csproj", "{56B8E8A9-CDC7-4634-A9E5-C9FC96DBE92E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreOnArray", "MoreOnArray\MoreOnArray.csproj", "{56B8E8A9-CDC7-4634-A9E5-C9FC96DBE92E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingList", "UsingList\UsingList.csproj", "{E07FDA77-8F4A-41D1-A213-5A398B43FA68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{56B8E8A9-CDC7-4634-A9E5-C9FC96DBE92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56B8E8A9-CDC7-4634-A9E5-C9FC96DBE92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56B8E8A9-CDC7-4634-A9E5-C9FC96DBE92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07FDA77-8F4A-41D1-A213-5A398B43FA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07FDA77-8F4A-41D1-A213-5A398B43FA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07FDA77-8F4A-41D1-A213-5A398B43FA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07FDA77-8F4A-41D1-A213-5A398B43FA68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
