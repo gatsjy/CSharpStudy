@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiInterfaceInheritance",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreOnArray", "MoreOnArray\MoreOnArray.csproj", "{56B8E8A9-CDC7-4634-A9E5-C9FC96DBE92E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingList", "UsingList\UsingList.csproj", "{E07FDA77-8F4A-41D1-A213-5A398B43FA68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingList", "UsingList\UsingList.csproj", "{E07FDA77-8F4A-41D1-A213-5A398B43FA68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerable", "Enumerable\Enumerable.csproj", "{55A5DE85-1C51-4AE1-94C8-A6B8531FCB17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{E07FDA77-8F4A-41D1-A213-5A398B43FA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E07FDA77-8F4A-41D1-A213-5A398B43FA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E07FDA77-8F4A-41D1-A213-5A398B43FA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A5DE85-1C51-4AE1-94C8-A6B8531FCB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A5DE85-1C51-4AE1-94C8-A6B8531FCB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A5DE85-1C51-4AE1-94C8-A6B8531FCB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A5DE85-1C51-4AE1-94C8-A6B8531FCB17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
