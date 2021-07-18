@@ -27,20 +27,56 @@ namespace GenericEx2
 
            분리 된 두개의 클래스를... 내용은 같은데 자료형만 다르다??
          */
-
-    class DemoList<T>
-    {
-        private T[] array;
-        public T GetItem(int idx) { return array[idx]; }
-    }
     class Program
     {
+        class MyList<T>
+        {
+            private T[] array;
+
+            public MyList()
+            {
+                array = new T[4];
+            }
+
+            public T this[int idx]
+            {
+                get
+                {
+                    return array[idx];
+                }
+
+                set
+                {
+                    if(idx >= array.Length)
+                    {
+                        Array.Resize<T>(ref array, idx+1);
+                        Console.WriteLine($"배열 사이즈조정 : {array.Length}");
+                    }
+
+                    array[idx] = value;
+                }
+            }
+
+            public int Length
+            {
+                get { return array.Length; }
+            }
+        }
+
         static void Main(string[] args)
         {
-            DemoList<int> demoList1 = new DemoList<int>();
-            DemoList<Double> demoList2 = new DemoList<double>();
+            MyList<string> myList1 = new MyList<string>();
+            myList1[0] = "A";
+            myList1[1] = "B";
+            myList1[2] = "C";
+            myList1[3] = "D";
+            myList1[4] = "E";
+            myList1[5] = "F";
 
-            Console.WriteLine("Hello World!");
+            for (int i = 0; i < myList1.Length; i++)
+            {
+                Console.WriteLine(myList1[i]);
+            }
         }
     }
 }

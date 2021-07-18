@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsEx", "GenericsEx\Ge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericEx2", "GenericEx2\GenericEx2.csproj", "{F957F756-B0A1-4798-A928-B67BF2B761D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsConstraintEx", "GenericsConstraintEx\GenericsConstraintEx.csproj", "{8EC3A4BA-71E8-42A4-88D3-3BD9C395E1A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{F957F756-B0A1-4798-A928-B67BF2B761D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F957F756-B0A1-4798-A928-B67BF2B761D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F957F756-B0A1-4798-A928-B67BF2B761D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC3A4BA-71E8-42A4-88D3-3BD9C395E1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC3A4BA-71E8-42A4-88D3-3BD9C395E1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC3A4BA-71E8-42A4-88D3-3BD9C395E1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC3A4BA-71E8-42A4-88D3-3BD9C395E1A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
