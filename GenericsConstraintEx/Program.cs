@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Dynamic;
 
 /*
     제네릭스 타입 제약
@@ -39,11 +40,78 @@
 */
 namespace GenericsConstraintEx
 {
+    class DemoArray1<T> where T : struct
+    {
+        public T[] Array { get; set; }
+        public DemoArray1(int size)
+        {
+            Array = new T[size];
+        }
+        public int Length
+        {
+            get
+            {
+                return Array.Length;
+            }
+        }
+    }
+
+    class DemoArray2<T> where T : class
+    {
+        public T[] Array { get; set; }
+        public DemoArray2(int size)
+        {
+            Array = new T[size];
+        }
+    }
+
+    class Parent { }
+    class Child : Parent { }
+    class DemoArray3<U> where U : Parent
+    {
+        public U[] Array { get; set; }
+        public DemoArray3(int size)
+        {
+            Array = new U[size];
+        }
+
+        public void CopyData<T>(T[] a) where T: U
+        {
+            a.CopyTo(Array, 0);
+        }
+    }
     class Program
     {
+        public static T CreateInstance<T>() where T : new()
+        {
+            return new T();
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DemoArray1<int> aa = new DemoArray1<int>(2);
+            aa.Array[0] = 11;
+            aa.Array[1] = 22;
+
+            for(int i = 0; i < aa.Length; i++)
+            {
+                Console.WriteLine(aa.Array[i]);
+            }
+
+            DemoArray2<DemoArray1<double>> bb = new DemoArray2<DemoArray1<double>>(2);
+            bb.Array[0] = new DemoArray1<double>(3);
+            bb.Array[1] = new DemoArray1<double>(10);
+
+            DemoArray3<Parent> cc = new DemoArray3<Parent>(3);
+            cc.Array[0] = new Parent();
+            cc.Array[1] = new Child();
+            cc.Array[2] = CreateInstance<Parent>();
+
+            DemoArray3<Child> dd = new DemoArray3<Child>(2);
+            dd.Array[0] = new Child();
+            dd.Array[1] = CreateInstance<Child>();
+
+            DemoArray3<Child> ee = new DemoArray3<Child>(2);
+            ee.CopyData<Child>(dd.Array);
         }
     }
 }
