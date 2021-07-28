@@ -63,6 +63,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericCollectionsEx4", "Ge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateDemo", "DelegateDemo\DelegateDemo.csproj", "{4F063187-3E1E-4662-9440-CEC04B64EE0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethodsandLambdaExpression", "AnonymousMethodsandLambdaExpression\AnonymousMethodsandLambdaExpression.csproj", "{6ACEA9AD-85FB-4578-A21A-EC3C19BCB2E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{4F063187-3E1E-4662-9440-CEC04B64EE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F063187-3E1E-4662-9440-CEC04B64EE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F063187-3E1E-4662-9440-CEC04B64EE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACEA9AD-85FB-4578-A21A-EC3C19BCB2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACEA9AD-85FB-4578-A21A-EC3C19BCB2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACEA9AD-85FB-4578-A21A-EC3C19BCB2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACEA9AD-85FB-4578-A21A-EC3C19BCB2E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
