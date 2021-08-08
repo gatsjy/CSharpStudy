@@ -2,71 +2,32 @@
 
 namespace DelegateDemo
 {
-    // event는 delegate와 써야한다.
-    delegate void Transformer(int x);
-
+    // 참고 : https://qzqz.tistory.com/226
+    // 델리게이트는 callback을 구현하기 위해 사용됩니다.
+    // callback은 어떤 작업을 해줄 코드를 두고 프로그램 실행 시점에 부여하는 것을 말합니다.
+    // 델리게이트는 메서드에 대한 참조입니다.
     class Program
     {
+        delegate int MyDelegate(int a, int b);
 
+        static int Plus(int a, int b)
+        {
+            return a + b;
+        }
+
+        static int Minus(int a, int b)
+        {
+            return a - b;
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a number");
-            int i = int.Parse(Console.ReadLine());
+            MyDelegate Callback;
 
-            Transformer t; // create the instance
+            Callback = new MyDelegate(Plus);
+            Console.WriteLine(Callback(3, 4)); // 7
 
-            t = Square; // point to the function
-             
-            t += Cuber; // two methods till now
-
-            t.Invoke(i); // invoking the delegate
-
-            NotifivationfMethods obj = new NotifivationfMethods();
-
-            obj.transformerEvent += User1.Xhandler;
-            obj.transformerEvent += User2.Yhandler;
-
-            obj.NotifyOnCell(i);
-
-            Console.ReadLine();
-        }
-
-        static void Square(int x)
-        {
-            Console.WriteLine(x * x);
-        }
-
-        static void Cuber(int x)
-        {
-            Console.WriteLine(x * x * x);
-        }
-    }
-
-    class NotifivationfMethods
-    {
-        public event Transformer transformerEvent;
-
-        public void NotifyOnCell(int x)
-        {
-            if (transformerEvent != null)
-            {
-                transformerEvent(x);
-            }
-        }
-    }
-
-    class User1
-    {
-        public static void Xhandler(int x)
-        {
-            Console.WriteLine("Event received by User1 object");
-        }
-    }
-    class User2
-    {
-        public static void Yhandler(int x)
-        {
-            Console.WriteLine("Event received by User2 object");
+            Callback = new MyDelegate(Minus);
+            Console.WriteLine(Callback(7, 3));
         }
     }
 }
