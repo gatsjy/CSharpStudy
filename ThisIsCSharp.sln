@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTest", "ThreadTest\Th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingCallback", "UsingCallback\UsingCallback.csproj", "{B81B179E-B4A8-4B13-9E0B-9E9058AE8540}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateChains", "DelegateChains\DelegateChains.csproj", "{C5966C00-8BA3-417C-905E-1E4E3B3A11E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{B81B179E-B4A8-4B13-9E0B-9E9058AE8540}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B81B179E-B4A8-4B13-9E0B-9E9058AE8540}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B81B179E-B4A8-4B13-9E0B-9E9058AE8540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5966C00-8BA3-417C-905E-1E4E3B3A11E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5966C00-8BA3-417C-905E-1E4E3B3A11E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5966C00-8BA3-417C-905E-1E4E3B3A11E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5966C00-8BA3-417C-905E-1E4E3B3A11E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
