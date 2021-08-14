@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileInputOutputEx", "FileIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringbuilderEx", "stringbuilderEx\stringbuilderEx.csproj", "{0FC0F9D0-563F-42EF-BF51-C3685D108636}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UriEx", "UriEx\UriEx.csproj", "{503F836D-FF64-4513-AD0C-5960AFFE9CC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +263,10 @@ Global
 		{0FC0F9D0-563F-42EF-BF51-C3685D108636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FC0F9D0-563F-42EF-BF51-C3685D108636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FC0F9D0-563F-42EF-BF51-C3685D108636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503F836D-FF64-4513-AD0C-5960AFFE9CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503F836D-FF64-4513-AD0C-5960AFFE9CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503F836D-FF64-4513-AD0C-5960AFFE9CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503F836D-FF64-4513-AD0C-5960AFFE9CC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
