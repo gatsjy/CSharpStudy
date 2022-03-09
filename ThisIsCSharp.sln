@@ -93,7 +93,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintPreviewInCSharp", "Pri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arrayex1", "arrayex1\arrayex1.csproj", "{2BCC95E7-033F-47DD-9978-9FFDB26B284C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "makingThread", "makingThread\makingThread.csproj", "{BACEE2E9-709E-44A5-BDFD-9F17A0ADB2D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "makingThread", "makingThread\makingThread.csproj", "{BACEE2E9-709E-44A5-BDFD-9F17A0ADB2D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "스레드에데이터전달", "스레드에데이터전달\스레드에데이터전달.csproj", "{1DCD3E6C-0474-4E0E-8605-EDEE3C974932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerSocket", "ServerSocket\ServerSocket.csproj", "{10E13403-21D6-44AB-A379-6F12CE3080D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +289,14 @@ Global
 		{BACEE2E9-709E-44A5-BDFD-9F17A0ADB2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BACEE2E9-709E-44A5-BDFD-9F17A0ADB2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BACEE2E9-709E-44A5-BDFD-9F17A0ADB2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCD3E6C-0474-4E0E-8605-EDEE3C974932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCD3E6C-0474-4E0E-8605-EDEE3C974932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCD3E6C-0474-4E0E-8605-EDEE3C974932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCD3E6C-0474-4E0E-8605-EDEE3C974932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E13403-21D6-44AB-A379-6F12CE3080D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E13403-21D6-44AB-A379-6F12CE3080D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E13403-21D6-44AB-A379-6F12CE3080D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E13403-21D6-44AB-A379-6F12CE3080D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
